@@ -83,7 +83,7 @@ public class MainActivity3 extends AppCompatActivity {
                         vibrator.vibrate(200);
                         button.setEnabled(false);
                         // Toast.makeText(MainActivity3.this, "You are not the host!", Toast.LENGTH_SHORT).show();
-                        // TODO: Update below to start intent for all clients
+
                         Intent passdata_intent = new Intent(v.getContext(), Game.class);
                         passdata_intent.putExtra("playerName", playerName);
                         startActivity(passdata_intent);
