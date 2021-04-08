@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/treasureback"
+    android:id="@+id/scrollojt"
+
+    android:fillViewport="true" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity3">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Start game"
+            app:backgroundTint="#ACA8A8" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="190dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Leave room"
+            app:backgroundTint="#ACA8A8" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="304dp"
+            android:layout_height="89dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="290dp"
+            android:fontFamily="sans-serif"
+            android:text="Match and collect all the gems to obtain the riches of the long-lost treasure!"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1A2560"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>
