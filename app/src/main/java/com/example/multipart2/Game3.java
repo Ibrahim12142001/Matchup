@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -19,6 +20,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class Game3 extends AppCompatActivity {
+
     TextView tv_p1, tv_p2;
 
     ImageView iv_11, iv_12, iv_13, iv_14, iv_21, iv_22, iv_23, iv_24, iv_31, iv_32, iv_33, iv_34, iv_41, iv_42, iv_43, iv_44;
@@ -528,4 +530,6 @@ public class Game3 extends AppCompatActivity {
         image208 = R.drawable.ic_image802;
 
     }
+
 }
+

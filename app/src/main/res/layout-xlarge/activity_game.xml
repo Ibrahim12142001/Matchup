@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4E2E6"
+    tools:context=".Game">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="159dp"
+        android:backgroundTint="#E31717"
+        android:text=" Chose a level"
+
+        android:textColor="#7687EA"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="453dp"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="527dp"
+        android:layout_marginBottom="114dp"
+        android:text="PLAY 3x4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="453dp"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="507dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="114dp"
+        android:text="PLAY 4x4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+</RelativeLayout>
