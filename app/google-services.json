@@ -1,10 +1,40 @@
 {
   "project_info": {
     "project_number": "114846258246",
+    "firebase_url": "https://multipart2-default-rtdb.firebaseio.com",
     "project_id": "multipart2",
     "storage_bucket": "multipart2.appspot.com"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114846258246:android:a2b43ee95ae51d3a456647",
+        "android_client_info": {
+          "package_name": "com.example.javagame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114846258246-n4bh0og911sk2rhl7ipdlhpnh1e2u2b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKxKYpDGQkWPI4HpoXHUZZWT2topKc1xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114846258246-n4bh0og911sk2rhl7ipdlhpnh1e2u2b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:114846258246:android:7f5aaa9bc5c186d5456647",

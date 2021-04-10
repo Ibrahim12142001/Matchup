@@ -4,6 +4,7 @@ package com.example.multipart2;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Button button;
     Vibrator vibrator;
     String playerName = "";
-
+    MediaPlayer mySong;
     FirebaseDatabase database;
     DatabaseReference playerRef;
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        mySong = MediaPlayer.create(MainActivity.this, R.raw.backsound);
         editText = findViewById(R.id.editText);
         button = findViewById(R.id.button);
         vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
