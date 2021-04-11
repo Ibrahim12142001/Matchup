@@ -9,9 +9,8 @@
     <ListView
         android:id="@+id/ListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/button"
-        />
+        android:layout_height="820dp"
+        android:layout_above="@id/button" />
 
 
     <Button
@@ -26,4 +25,6 @@
         android:textAllCaps="true"
         app:backgroundTint="#9E2583"
         app:iconTint="#3F51B5" />
+
+
 </RelativeLayout>

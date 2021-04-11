@@ -27,6 +27,7 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button button;
+    Button button2;
     Vibrator vibrator;
     String playerName = "";
     MediaPlayer mySong;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mySong = MediaPlayer.create(MainActivity.this, R.raw.backsound);
         editText = findViewById(R.id.editText);
         button = findViewById(R.id.button);
+
         vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
         database = FirebaseDatabase.getInstance();
 
@@ -68,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
 
     private void addEventListener() {

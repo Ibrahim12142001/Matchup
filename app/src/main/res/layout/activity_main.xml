@@ -47,7 +47,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
-        android:layout_centerHorizontal="true"
         android:text="     Match-Up: Lost Treasure!"
         android:textAlignment="center"
         android:textAllCaps="false"
