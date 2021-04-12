@@ -15,7 +15,7 @@
         android:layout_marginTop="250dp"
         android:layout_marginEnd="159dp"
         android:backgroundTint="#E31717"
-        android:text=" Chose a level"
+        android:text="Choose a level"
 
         android:textColor="#7687EA"
         android:textSize="50sp"

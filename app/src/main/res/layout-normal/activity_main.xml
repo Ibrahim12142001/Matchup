@@ -9,6 +9,9 @@
     android:background="@drawable/island"
     tools:context=".MainActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/editText"
@@ -41,21 +44,25 @@
         app:backgroundTint="#7A6E6E"
         app:iconTint="#BA4FB8" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:fontFamily="sans-serif-condensed"
-        android:gravity="center"
-        android:text="     Match-Up: Lost Treasure!"
-        android:layout_marginEnd="15dp"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#0C0C0C"
-        android:textSize="30sp"
-        android:textStyle="bold|italic"
-        android:weightSum="9" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
 
 
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="426dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Match-Up: Lost Treasure!"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#0C0C0C"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:weightSum="9" />
+
+    </RelativeLayout>
 </RelativeLayout>

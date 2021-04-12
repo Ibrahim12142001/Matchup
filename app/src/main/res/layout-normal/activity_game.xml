@@ -9,13 +9,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="199dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="182dp"
         android:layout_marginEnd="159dp"
         android:backgroundTint="#E31717"
-        android:text="Chose a level"
+        android:textAlignment="center"
+        android:text="Choose a level"
         android:textColor="#7687EA"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -24,25 +26,25 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="44dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="63dp"
-        android:layout_marginEnd="245dp"
+        android:layout_marginEnd="213dp"
         android:layout_marginBottom="40dp"
         android:text="PLAY 3x4" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="247dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="41dp"
         android:text="PLAY 4x4" />
 </RelativeLayout>
