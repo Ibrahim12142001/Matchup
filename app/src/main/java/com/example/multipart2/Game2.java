@@ -261,6 +261,7 @@ public class Game2 extends AppCompatActivity {
     }
 
     private void calculate() {
+        final MediaPlayer startSound2 = MediaPlayer.create(this, R.raw.startsound);
         if (firstCard == secondCard) {
             if(clickedFirst == 0){
                 iv_11.setVisibility(View.INVISIBLE);
@@ -339,10 +340,12 @@ public class Game2 extends AppCompatActivity {
             }
 
             if(turn == 1){
+                startSound2.start();
                 playerPoints++;
                 tv_p1.setText("Player 1: " + playerPoints);
             }
             else if (turn == 2){
+                startSound2.start();
                 cpuPoints++;
                 tv_p2.setText("Player 2: " + cpuPoints);
             }
