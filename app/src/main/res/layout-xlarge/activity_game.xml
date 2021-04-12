@@ -9,14 +9,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="327dp"
-        android:layout_height="wrap_content"
+        android:layout_width="365dp"
+        android:layout_height="127dp"
+        android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
         android:layout_marginEnd="159dp"
+        android:layout_marginBottom="24dp"
+
         android:backgroundTint="#E31717"
         android:text="Choose a level"
-
         android:textColor="#7687EA"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -25,27 +27,35 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="453dp"
-        android:layout_height="159dp"
+        android:layout_width="320dp"
+        android:layout_height="96dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginEnd="527dp"
+        android:layout_marginEnd="497dp"
         android:layout_marginBottom="114dp"
         android:text="PLAY 3x4"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="453dp"
-        android:layout_height="159dp"
+        android:layout_width="320dp"
+        android:layout_height="96dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="507dp"
+        android:layout_marginStart="480dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="114dp"
         android:text="PLAY 4x4"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+    <include
+        layout="@layout/string"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="24dp" />
 </RelativeLayout>

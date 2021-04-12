@@ -11,10 +11,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="144dp"
         android:layout_marginEnd="159dp"
+        android:layout_marginBottom="0dp"
         android:backgroundTint="#E31717"
         android:text="Choose a level"
         android:textColor="#7687EA"
@@ -46,4 +46,11 @@
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="40dp"
         android:text="PLAY 4x4" />
+
+    <include
+        layout="@layout/string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_marginBottom="0dp" />
 </RelativeLayout>

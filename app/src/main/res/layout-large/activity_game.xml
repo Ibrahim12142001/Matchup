@@ -11,12 +11,14 @@
         android:id="@+id/textView"
         android:layout_width="301dp"
         android:layout_height="79dp"
+        android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
         android:layout_marginEnd="159dp"
+        android:layout_marginBottom="24dp"
+
         android:backgroundTint="#E31717"
         android:text=" Choose a level"
-
         android:textColor="#7687EA"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -48,4 +50,13 @@
         android:layout_marginBottom="50dp"
         android:text="PLAY 4x4"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <include
+        layout="@layout/string"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
 </RelativeLayout>

@@ -9,15 +9,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="199dp"
+        android:layout_width="194dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="182dp"
+
+
         android:layout_marginEnd="159dp"
+        android:layout_marginBottom="0dp"
         android:backgroundTint="#E31717"
-        android:textAlignment="center"
         android:text="Choose a level"
+        android:textAlignment="center"
         android:textColor="#7687EA"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -33,7 +35,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="63dp"
         android:layout_marginEnd="213dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="0dp"
         android:text="PLAY 3x4" />
 
     <Button
@@ -45,6 +47,15 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="228dp"
         android:layout_marginEnd="47dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="0dp"
         android:text="PLAY 4x4" />
+
+    <include
+        layout="@layout/string"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="-3dp" />
 </RelativeLayout>
