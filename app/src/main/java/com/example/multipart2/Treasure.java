@@ -19,21 +19,6 @@ public class Treasure extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.treasure);
 
-        button5 = (Button) findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openMainActivity3();
-            }
-        });
-
 
     }
-    public void openMainActivity3(){
-
-        Intent intent = new Intent(this, MainActivity3.class);
-        startActivity(intent);
-    }
-
-
 }
