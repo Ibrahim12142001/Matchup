@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soon"
+    android:background="#C4E2E6"
+
+    >
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="290dp"
+
+        android:text="Coming Soon to Match-Up: Lost Treasure!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#2E818C"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/multi"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="400dp"
+        android:layout_height="900dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="290dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Play online multiplayer with all of your friends and compete for the Lost Treasure!"
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="297dp" />
+</RelativeLayout>

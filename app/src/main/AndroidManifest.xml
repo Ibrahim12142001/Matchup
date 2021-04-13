@@ -13,10 +13,20 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Match-Up"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiPart2">
+        <activity android:name=".Treasure"></activity>
+        <activity
+            android:name=".soon"
+            android:label="Coming Soon!"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".Game3" />
         <activity android:name=".Game2" />
         <activity android:name=".Game" />

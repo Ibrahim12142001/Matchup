@@ -498,11 +498,21 @@ public class Game3 extends AppCompatActivity {
             alertDialogBuilder
                     .setMessage("Game Over!\nPlayer 1: " + playerPoints + "\nPlayer 2: " + cpuPoints)
                     .setCancelable(false)
-                    .setPositiveButton("Menu", new DialogInterface.OnClickListener() {
+                    .setPositiveButton("New Level", new DialogInterface.OnClickListener() {
+
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            Intent intent = new Intent(getApplicationContext(), Game.class);
+                            Intent intent = new Intent(getApplicationContext(),Game.class);
                             startActivity(intent);
+                            finish();
+                        }
+
+                    })
+                    .setNegativeButton("Done", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent intent1 = new Intent(getApplicationContext(), Treasure.class);
+                            startActivity(intent1);
                             finish();
                         }
                     });
