@@ -27,7 +27,7 @@ public class Game2 extends AppCompatActivity {
 
     Integer [] cardsArray = {101, 102, 103, 104, 105, 106, 201, 202, 203, 204, 205, 206};
 
-
+    String end;
     int image101, image102, image103, image104, image105, image106, image201, image202, image203,
             image204, image205, image206;
 
@@ -389,7 +389,7 @@ public class Game2 extends AppCompatActivity {
         iv_32.setEnabled(true);
         iv_33.setEnabled(true);
         iv_34.setEnabled(true);
-
+        winner();
         checkout();
     }
 
@@ -409,7 +409,7 @@ public class Game2 extends AppCompatActivity {
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(Game2.this);
             alertDialogBuilder
-                    .setMessage("Game Over!\nPlayer 1: " + playerPoints + "\nPlayer 2: " + cpuPoints)
+                    .setMessage(end + "\nPlayer 1: " + playerPoints + "\nPlayer 2: " + cpuPoints)
                     .setCancelable(false)
                     .setPositiveButton("New Level", new DialogInterface.OnClickListener() {
 
@@ -448,6 +448,17 @@ public class Game2 extends AppCompatActivity {
         image204 = R.drawable.ic_image402;
         image205 = R.drawable.ic_image502;
         image206 = R.drawable.ic_image602;
+    }
+    private void winner(){
+        if (playerPoints > cpuPoints){
+            end = "Player 1 wins";
+        }
+        else if (playerPoints < cpuPoints){
+            end = "Player 2 wins";
+        }
+        else{
+            end = "Draw";
+        }
     }
 
 }
